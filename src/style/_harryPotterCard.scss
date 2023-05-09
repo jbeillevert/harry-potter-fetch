@@ -1,12 +1,16 @@
 .harry-potter-card {
     background-color: white;
     border-radius: 5px;
+    width: 100%;
+    max-width: 200px;
     box-shadow: 4px 4px 9px rgba(14, 2, 20, 0.3);
 }
 
 .img-harry-potter-card {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    width: 100%;
+    height: 280px;
 }
 
 .h3-harry-potter-card {

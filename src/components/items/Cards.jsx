@@ -1,10 +1,16 @@
 import React from 'react';
 import HarryPotterCard from './HarryPotterCard';
 
-const Cards = () => {
+const Cards = ({ data }) => {
     return (
         <div className='cards' >
-            <HarryPotterCard />
+            {
+                data.map((e) => {
+                    return (
+                        <HarryPotterCard key={e.id} name={e.name} img={e.image} />
+                    )
+                })
+            }
             
         </div>
     );
